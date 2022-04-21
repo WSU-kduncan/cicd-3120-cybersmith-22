@@ -10,4 +10,4 @@ docker system prune -f
 docker pull cybersmith22/cicd-3120-cybersmith-22:latest
 
 # run new image
-docker run -d --name project5 --rm -p 80:80 cybersmith22/cicd-3120-cybersmith-22:latest
+docker run -d --name project5 -p 80:80 cybersmith22/cicd-3120-cybersmith-22:latest
